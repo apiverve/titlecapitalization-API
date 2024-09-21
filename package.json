@@ -1,0 +1,32 @@
+{
+  "name": "@apiverve/titlecapitalization",
+  "version": "1.1.5",
+  "description": "Title Capitalization is a simple tool for converting title text to various cases. It returns the text converted to your desired case.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apiverve/titlecapitalization-API.git"
+  },
+  "keywords": [
+    "title capitalization","title capitalization api","title capitalization tool","title capitalization software","title capitalization service"
+  ],
+  "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apiverve/titlecapitalization-API/issues"
+  },
+  "homepage": "https://apiverve.com/marketplace/api/titlecapitalization?utm_source=npm",
+  "devDependencies": {
+    "mocha": "^10.7.3",
+    "chai": "^5.1.1",
+    "dotenv": "^16.4.5"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "promise": "^8.3.0",
+    "axios": "1.7.7"
+  }
+}
